@@ -149,7 +149,11 @@ h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/********** Base **********/
+body {
+    min-width: 434px;
+}
+
 a {
     display: block;
     text-decoration: none;
