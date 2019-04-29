@@ -394,6 +394,26 @@ main.services .btn {
     margin-top: 20px;
 }
 
+@media screen and (max-width: 800px) {
+    main.services {
+        flex-direction: column;
+    }
+
+    main.services .card {
+        width: 100%;
+    }
+
+    main.services .card:nth-child(5) {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main.services .btn {
+        width: 100%;
+    }
+}
+
 /********** Footer **********/
 footer {
     display: flex;
