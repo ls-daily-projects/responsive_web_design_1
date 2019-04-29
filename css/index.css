@@ -462,6 +462,20 @@ footer.home .footer-text a {
     margin-top: 16px;
 }
 
+@media screen and (max-width: 800px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer img {
+        display: none;
+    }
+
+    footer .footer-text {
+        width: 100%;
+    }
+}
+
 /********** Contact Page **********/
 .contact {
     display: flex;
