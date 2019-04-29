@@ -250,6 +250,27 @@ header nav + a {
     justify-content: flex-end;
 }
 
+@media screen and (max-width: 800px) {
+    .home .hero-img {
+        display: none;
+    }
+
+    .home .hero-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .home .hero-text h1 {
+        font-size: 64px;
+        letter-spacing: 1.5px;
+        line-height: 74px;
+    }
+
+    .home .hero-text button {
+        padding: 2px;
+    }
+}
+
 /********** Hero / Services **********/
 .services {
     flex-direction: column;
