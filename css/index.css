@@ -311,6 +311,15 @@ main {
     flex-wrap: wrap;
 }
 
+main.home .card {
+    padding-right: 20px;
+}
+
+main.home .card:nth-child(2),
+main.home .card:nth-child(6) {
+    padding-right: 0;
+}
+
 main.home .card h2 {
     font-size: 16px;
     letter-spacing: 1.2px;
@@ -333,6 +342,28 @@ main.home img {
 
 main .card-33 {
     width: 33%;
+}
+
+@media screen and (max-width: 800px) {
+    main.home .card {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main.home {
+        flex-direction: column;
+    }
+
+    main.home .card {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 80px;
+    }
+
+    main.home img {
+        margin-top: 0;
+    }
 }
 
 main.services {
